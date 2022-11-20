@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assest/css/style.css" />
+    <link rel="stylesheet" href="./assest/css/header.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>الكويت ترفيه</title>
+  </head>
+  <body id="top">
+    <header>
+      <span class="logo">الكويت ترفيه</span>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="#">الصفحه الرئيسيه</a>
+            <a href="./ent.html">الاماكن الترفيهيه</a>
+            <a href="./films.html">الافلام</a>
+            <a href="#contactme">تواصل معنا</a>
+          </li>
+        </ul>
+      </nav>
+      <button id="mo-btn" class="mobile-btn"><i class="fa-solid fa-bars"></i></button>
+    </header>
+    <div id="mo-nav" class="mobile-hdr">
+      <nav class="mobile-navbar">
+        <ul>
+          <li>
+            <a href="#">الصفحه الرئيسيه</a>
+            <a href="./ent.html">الاماكن الترفيهيه</a>
+            <a href="./films.html">الافلام</a>
+            <a href="#contactme">تواصل معنا</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hero-section">
+      <h1 class="hero-title">الكويت ترفيه</h1>
+      <p class="hero-par">
+        الكويت ترفيه هو موقع يعرض لك الاماكن الترفيهيه في الكويت ويمكنك من خلاله
+        معرفه موقع المكان ويمكنك ايضا معرفه افضل الافلام في الموقع
+      </p>
+      <a href="./ent.html">
+        <button class="hero-btn">عرض الاماكن الترفيهيه</button>
+      </a>
+      <a href="./films.html">
+        <button class="hero-btn">عرض الافلام</button>
+      </a>
+    </div>
+    <div class="two-section" id="contactme">
+      <h1 class="title">تواصل معنا</h1>
+      <div class="conatct-form">
+        <form
+          action="https://formsubmit.co/aldihani4336@gmail.com"
+          method="POST"
+        >
+          <div class="name">
+            <input type="text" name="name" required placeholder="Full Name" />
+          </div>
+
+          <div class="email">
+            <input type="email" name="email" required placeholder="email" />
+          </div>
+
+          <div class="msg">
+            <textarea name="message" cols="30" rows="10" class="box message" placeholder="message" required=""></textarea>
+          </div>
+
+          <input type="submit" value="Send" class="submit-btn" />
+        
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <span class="cpr">جميع الحقوق محفوظه لصالح <span class="footer-logo">الكويت ترفيه</span></span>
+      <div class="items">
+        <ul>
+          <li>
+            <a href="#">الصفحه الرئيسيه</a>
+            <a href="./ent.html">الاماكن الترفيهيه</a>
+            <a href="./films.html">الافلام</a>
+            <a href="#contactme">تواصل معنا</a>
+          </li>
+        </ul>
+      </div>
+      <a href="#top">
+        <button class="footer-btn">TOP</button>
+      </a>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+<script>
+      ScrollReveal({
+        reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay: 400
+      });
+
+    ScrollReveal().reveal('#contactme', { delay: 5, origin: 'bottom' });
+</script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="./assest/js/main.js"></script>
+  </body>
+</html>

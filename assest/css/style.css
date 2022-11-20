@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css?family=Vazirmatn:100,200,300,regular,500,600,700,800,900);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Vazirmatn";
+}
+
+body {
+  background-color: #023047;
+  /* background: rgb(115, 17, 162);
+  background: linear-gradient(
+    90deg,
+    rgba(115, 17, 162, 1) 0%,
+    rgba(47, 6, 67, 1) 95%
+  ); */
+}
+
+.hero-section {
+  padding: 520px 150px;
+  display: block;
+}
+
+.hero-title {
+  font-size: 100px;
+  color: white;
+  filter: drop-shadow(-5.196px 3px 6.5px #000000);
+  font-family: "Marhey";
+}
+
+.hero-par {
+  color: white;
+  text-shadow: black -2px 0px 6px;
+  padding: 0px 0px 20px;
+}
+
+.hero-btn {
+  color: white;
+  background-color: #3180a5;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.hero-btn:hover {
+  background-color: #27617c;
+  transform: scale(1.05);
+}
+
+.two-section {
+  background-color: #3180a5;
+  padding: 50px 190px;
+}
+
+.conatct-form {
+  width: 100%;
+}
+
+.name input {
+  padding: 1rem;
+  width: 40rem;
+  transition: all 0.5s;
+  font-size: 1rem;
+  border: none;
+}
+
+.email input {
+  padding: 1rem;
+  width: 40rem;
+  transition: all 0.5s;
+  font-size: 1rem;
+  border: none;
+  margin: 1rem 0;
+}
+
+.msg textarea {
+  padding: 1rem;
+  width: 40rem;
+  height: 15rem;
+  resize: none;
+
+  transition: all 0.5s;
+  font-size: 1rem;
+  border: none;
+}
+
+.submit-btn {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  background-color: #0c6c9c;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #0a4766;
+}
+
+.title {
+  color: white;
+
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.icon {
+  position: absolute;
+  margin: -270px 600px;
+  display: flex;
+}
+
+@media (max-width: 850px) {
+  .hero-section {
+    padding: 500px 20px;
+  }
+  .hero-title {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 2174px) {
+  .icon {
+    margin: -270px 600px;
+    display: block;
+    width: auto;
+  }
+}
+
+@media (max-width: 1150px) {
+  .two-section {
+    width: 100%;
+    padding: 50px 10px;
+  }
+
+  .name input {
+    width: 30rem;
+  }
+  .msg textarea {
+    width: 30rem;
+  }
+  .email input {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .name input {
+    width: 25rem;
+  }
+  .msg textarea {
+    width: 25rem;
+  }
+  .email input {
+    width: 25rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero-title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 416px) {
+  .name input {
+    width: 20rem;
+  }
+  .msg textarea {
+    width: 20rem;
+  }
+  .email input {
+    width: 20rem;
+  }
+}

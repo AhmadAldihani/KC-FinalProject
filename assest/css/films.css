@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Vazirmatn:100,200,300,regular,500,600,700,800,900);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Vazirmatn";
+}
+body {
+  background-color: #023047;
+}
+
+.film-section {
+  padding: 300px 600px;
+}
+
+.films {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.film-card {
+  position: relative;
+  width: 20rem;
+  height: auto;
+  margin: 10px 20px;
+  transition: 0.5s;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000000;
+  border-radius: 10px;
+}
+.film-card:hover .overlay {
+  opacity: 0.5;
+}
+
+.film-card:hover .description {
+  opacity: 1;
+}
+.film-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.description {
+  position: absolute;
+  top: 30%;
+  opacity: 0;
+  text-align: center;
+  transition: 0.5s;
+  color: white;
+}
+
+.film-title {
+  font-size: 50px;
+}
+
+/* .film-btn {
+  position: absolute;
+  background-color: #023047;
+  color: white;
+  top: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4.5%;
+  display: flex;
+  cursor: pointer;
+  opacity: 0;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.35s ease;
+} */
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1600px) {
+  .film-section {
+    padding: 300px 0px;
+  }
+}

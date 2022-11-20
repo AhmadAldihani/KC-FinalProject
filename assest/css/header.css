@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css?family=Marhey:300,regular,500,600,700);
+* {
+  scroll-behavior: smooth;
+}
+header {
+  background-color: #219ebc;
+  width: 100%;
+  z-index: 99;
+  padding: 2px 200px;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 50px;
+  cursor: pointer;
+  padding: 20px 0px;
+  align-items: center;
+  font-family: "Marhey";
+  justify-content: center;
+  color: white;
+  filter: drop-shadow(-5.196px 3px 6.5px #000000);
+  font-weight: 700;
+}
+
+.navbar {
+  padding: 50px 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 10px;
+  float: left;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar ul li a:hover {
+  color: rgb(192, 192, 192);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #011722;
+  color: white;
+  padding: 50px 200px;
+}
+
+.items ul li a {
+  color: white;
+  transition: 0.3s;
+  padding: 0px 10px;
+}
+
+.items ul li a:hover {
+  color: rgb(192, 192, 192);
+}
+
+.footer-btn {
+  width: 100px;
+  padding: 10px;
+  border: navajowhite;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.footer-btn:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+}
+
+.footer-logo {
+  font-family: "Marhey";
+}
+
+/* mobile nav */
+
+.mobile-hdr {
+  background-color: #187086;
+  width: 100%;
+  height: 400px;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  text-align: center;
+}
+
+.mobile-navbar ul li a {
+  display: block;
+  position: relative;
+  top: 150px;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 0px;
+  color: white;
+}
+.mobile-navbar ul li a:hover {
+  color: rgb(192, 192, 192);
+}
+
+.mobile-btn {
+  padding: 15px;
+  height: 50px;
+  margin: 20px 0px;
+  border: none;
+  display: none;
+  background: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 1070px) {
+  header {
+    padding: 0px 10px;
+  }
+  .mobile-btn {
+    display: block;
+  }
+  .navbar {
+    display: none;
+  }
+  .logo {
+    font-size: 40px;
+  }
+
+  .footer {
+    padding: 50px 10px;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+  .items ul li a {
+    text-align: center;
+    display: block;
+  }
+  .footer-btn {
+    width: 50px;
+    padding: 5px;
+    border: navajowhite;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+}
