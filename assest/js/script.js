@@ -10,7 +10,7 @@ let cards = [
     location: "https://goo.gl/maps/55srKibULzBYXYiP6",
   },
   {
-    img: "https://i0.wp.com/wujhat.com/eeptixog/2021/04/%D8%A7%D9%85%D8%A7%D9%83%D9%86-%D8%AA%D8%B1%D9%81%D9%8A%D9%87%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-1.png?w=823&ssl=1",
+    img: "https://www.aljarida.com/uploads/imported_images/images/1581267938088407900/1581268549000/1280x960.jpg",
     title: "حديقة الشهيد",
     location: "https://goo.gl/maps/cygonLwuHQx7qzkK8",
   },
