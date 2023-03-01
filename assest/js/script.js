@@ -24,6 +24,11 @@ let cards = [
     title: "Kidzania",
     location: "https://g.page/KidZaniaKuwait?share",
   },
+  {
+    img: "https://lh3.googleusercontent.com/p/AF1QipPvnlzezz2jcJAGFCd8REfaiHk0O32Nvk08HTV0=s680-w680-h510",
+    title: "WinterLand",
+    location: "https://goo.gl/maps/9m3fRKZDBGXy7woY9",
+  },
 ];
 
 cards.forEach((item) => {
