@@ -30,7 +30,6 @@ let cards = [
     location: "https://goo.gl/maps/9m3fRKZDBGXy7woY9",
   },
 ];
-
 cards.forEach((item) => {
   let sec = document.getElementById("section");
   sec.innerHTML += `
